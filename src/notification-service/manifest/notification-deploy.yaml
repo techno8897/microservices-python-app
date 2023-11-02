@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: notification
-          image: nasi101/notification
+          image:techno8897/notification
           envFrom:
             - configMapRef:
                 name: notification-configmap
